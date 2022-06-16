@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(61, 61, 61);
+}
+.btn{
+    background-color:rgb(61, 61, 61);
+    margin-left:20%;
+    border:0px;
+    cursor:pointer;
+}
+.heading{
+    text-align: center;
+    font-style: italic;
+    font-size: 10rem;
+    font-weight: bold;
+    margin:0 2rem;
+    color:rgb(0, 222, 137);
+}
+.player{
+    font-family: cursive;
+    color:rgb(0, 222, 137);
+    display:flex;
+    justify-content: center;
+    padding: 3rem;
+    font-size:2rem;
+    font-weight: lighter;
+    
+}
+.player h4{
+    margin:0 15rem;
+}
+.dices{
+    display:flex;
+    justify-content: center;
+}
+#dice1{
+
+    margin:0 10rem;
+}
+#dice2{
+   
+    margin:0 10rem;
+}
