@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap');
+                            /* Title section */
+                       
+#title{
+    background-color: #ff4c68;
+    font-family:'ubuntu';
+    
+    
+}
+.container-fluid{
+    padding:2% 15%;
+    
+}
+.navbar-brand{
+    margin-left:7%;
+    font-weight:1000;
+    font-size:1.75rem;
+    letter-spacing:0.1rem;
+}
+.heading h1{
+    font-family:'Montserrat';
+    color:antiquewhite;
+    size: 3rem;
+    line-height: 1.5;
+    padding:4rem;
+    line-height:1.5;
+}
+.download-button{
+    font-family:'Montserrat';
+    font-weight:normal;
+    font-size:1.15rem;
+    margin:0.2rem;
+    text-align: center;
+    word-spacing: 2rem;
+    
+    
+}
+.justify-content-end a{
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight:normal;
+}
+
+#Tindog img{
+    width:20%;
+    margin-left:4rem;
+    margin-top: 2rem;
+    transform: rotate(25deg);
+    position:absolute;
+    
+}
+                         /* Features section */
+#features{
+   text-align: center;
+   padding:6rem 4rem 5rem;
+   margin:auto 9rem;
+   background-color: #fff;
+   position: relative;
+   z-index:1;
+
+}
+ p{
+    font-size:1.2rem;
+    color:gray;
+ }
+#features i{
+    color:rgb(255, 121, 73);
+}
+#features i:hover{
+    color:#ff4c68
+}
+
+h3{
+    font-family:'Montserrat';
+    padding-top: 2rem;
+    
+}
+/* testimonial */
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    
+    color:#fff;
+    margin-top: 2rem;
+}
+h2{
+    font-family:'Montserrat';
+    font-weight: 500;
+    line-height:2.5;
+}
+#testimonials img{
+    width:10%;
+    border-radius: 100%;
+    margin:1rem auto;
+    
+}
+#testimonials em{
+    margin-left: 1rem;
+    padding:12rem auto;
+    text-align: center;
+    
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    margin-bottom:8rem;
+    padding-bottom:2rem;
+}
+#press img{
+    width:13%;
+}
+#pricing {
+    margin-top:-6rem;
+    padding:0;
+    text-align: center;
+    padding:3% 2%;
+}
+.card{
+    padding:2rem;
+}
+                            /* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 1rem;
+    padding-bottom:3rem;
+}
+#cta h3{
+    color:white;
+    margin-bottom: 3rem;
+    word-spacing:0.2rem;
+}
+.buttons{
+    
+    font-family:'ubuntu';
+    font-weight: bold;
+}
+.buttons:hover{
+    color:#ff4c68;
+}
+                             /* footer */
+#footer{
+    text-align: center;
+    padding-top:2rem;
+}
+.icons{
+    word-spacing:1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.fa:hover{
+    color:#ff4c68;
+}
+@media screen and (max-width: 990px) {
+    #Tindog img{
+        position:static;
+        width:200px;
+        transform: rotate(0);
+        margin-left:6rem;
+    }
+    #title{
+        text-align: center;
+    }
+    #features{
+        margin-top: 1rem;
+        padding:0;
+    }
+}    
